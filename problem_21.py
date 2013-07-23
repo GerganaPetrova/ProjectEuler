@@ -12,6 +12,5 @@ for i in range(2,10000):
     a = d(i)
     if a > i and d(a) == i:
         result += a + i
-print result 
 
  
